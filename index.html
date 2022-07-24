@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+    body{
+        background-color: rgb(122, 44, 44);
+        color: white;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(172, 169, 169);
+    }
+    ul li a{
+        color: white;
+    }
+    .body img{
+        height: 60vh;
+        width: 100%;
+    }
+    .body p{
+        padding: 2rem;
+    }
+    .data{
+        margin-top: 5rem;
+    }
+    .data img{
+        height: 60vh;
+        width: 100%;
+    }
+</style> 
+</head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <!-- Nav tabs -->
+        <div class="container-fluid">
+        <ul class="nav nav-tabs" id="navId">
+            <li class="nav-item">
+                <a href="#tab5Id" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#tab5Id" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="#tab5Id" class="nav-link">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="#tab5Id" class="nav-link">Service</a>
+            </li>
+        </ul>
+        
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
+            <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
+            <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
+            <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
+            <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+        </div>
+        
+        <script>
+            $('#navId a').click(e => {
+                e.preventDefault();
+                $(this).tab('show');
+            });
+        </script>
+        <div class="body text-center">
+
+        <img src="img/photo-1453728013993-6d66e9c9123a.jpg" alt="">
+
+            <h1 class="">Camera</h1>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum illo quod vitae magnam aspernatur excepturi accusantium labore illum aliquid tempore, fugiat placeat cupiditate perferendis ullam! Saepe iusto nam sed unde iste et earum assumenda, nisi obcaecati similique consequatur dolore. Ducimus accusamus pariatur aliquam ipsam possimus neque repudiandae consequuntur corporis inventore?</p>
+    
+        </div>
+
+        <div class="data">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/images.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempora corporis id recusandae quis ipsam quidem suscipit accusantium! Nam odit nisi debitis obcaecati optio sed, architecto voluptates nostrum ad itaque voluptatibus incidunt dicta repellat cum provident nemo at asperiores officia quam praesentium. Perferendis cumque quis, fuga maiores a tempore eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, amet numquam quasi id, fugit possimus suscipit cupiditate temporibus saepe inventore eum sit dicta officia ea porro excepturi eligendi mollitia at et laudantium corporis? Alias nisi praesentium ipsa odio veniam ipsam eligendi! Exercitationem perferendis iusto distinctio, quos aperiam dolor laudantium quae!</p>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+        </div>
+</body>
+</html>
